@@ -1,0 +1,49 @@
+/* Apply a white background color to the body */
+body {
+    background-color: #fff;
+}
+
+/* Center the heading text and apply a blue color */
+h1 {
+    text-align: center;
+    color: #0080ff;
+}
+
+/* Style the form inputs */
+input[type="number"], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+/* Style the Calculate button */
+button[type="submit"] {
+    background-color: #0080ff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Change the button color on hover */
+button[type="submit"]:hover {
+    background-color: #0059b3;
+}
+
+/* Add a horizontal rule after the result */
+hr {
+    border: 1px solid #ccc;
+}
+
+/* Style the result text */
+p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #0080ff;
+}
